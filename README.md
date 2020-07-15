@@ -4,13 +4,13 @@ ML-Model-Flask-Deployment
 
 This is a demo project to elaborate how Machine Learn Models are deployed on production using Flask API and is also part of my internship program at The Sparks Foundation
 
-Prerequisites
+# Prerequisites
 
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
 
-Project Structure
+# Project Structure
 
-This project has four major parts :
+#### This project has four major parts :
 
 model.py - This contains code fot our Machine Learning model to predict percentage Based on training data in 'hours.csv' file.
 app.py - This contains Flask APIs that receives details through GUI or API calls, computes the precited value based on our model and returns it.
