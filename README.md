@@ -13,7 +13,7 @@ You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for A
 #### This project has four major parts :
 
 model.py - This contains code fot our Machine Learning model to predict percentage Based on training data in 'hours.csv' file.
-app.py - This contains Flask APIs that receives details through GUI or API calls, computes the precited value based on our model and returns it.
+app1.py - This contains Flask APIs that receives details through GUI or API calls, computes the precited value based on our model and returns it.
 request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
 templates - This folder contains the HTML template to allow user to enter employee detail and displays the percentage calculated.
 Running the project
@@ -22,8 +22,8 @@ Ensure that you are in the project home directory. Create the machine learning m
 python model.py
 This would create a serialized version of our model into a file model.pkl
 
-Run app.py using below command to start Flask API
-python app.py
+Run app1.py using below command to start Flask API
+python app1.py
 By default, flask will run on port 5000.
 
 Navigate to URL http://localhost:5000
@@ -35,3 +35,8 @@ If everything goes well, you should be able to see the expected percentage on th
 
 You can also send direct POST requests to FLask API using Python's inbuilt request module Run the beow command to send the request with some pre-popuated values -
 python request.py
+
+
+## edge cases taken care:
+No.of study hours should always be less than 24 
+Expected percentage should always be less than 100
