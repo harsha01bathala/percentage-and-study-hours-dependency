@@ -29,7 +29,7 @@ By default, flask will run on port 5000.
 Navigate to URL http://localhost:5000
 You should be able to view the homepage as below : alt text
 
-Enter valid numerical values in all 3 input boxes and hit Predict.
+Enter valid numerical values in input boxe and hit Predict.
 
 If everything goes well, you should be able to see the expected percentage on the HTML page! alt text
 
